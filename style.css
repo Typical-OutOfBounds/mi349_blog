@@ -22,21 +22,30 @@ p {
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
 
+article:nth-of-type(1) {
+    margin-right: 10px;
+}
+article:nth-of-type(2) {
+    margin-left: 10px;
+}
+
 nav ul {
     list-style-type: none;
-    padding-left: 0;
+    /*padding-left: 0;*/
 }
 
 .nav-item {
-    display:inline-block;
+    /*display:inline-block;*/
     background-color: #ffb84d;
     padding: 5px;
+    margin: 5px;
 }
 
 .nav-item:hover {
@@ -79,5 +88,39 @@ button:hover {
 }
 
 .long-text {
-    width: 60%;
+    width: 100%;
+}
+
+.navigation {
+    background: #888b94;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top:0%;
+    width: 12%;
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 5px;
+    padding: 5px;
+    background-color: #ffb84d;
+    border: 1px solid #242424
+}
+
+nav a:hover {
+    background-color: #b38136;
+}
+
+#star-pic {
+    float: right;
+    background-color: #ffb84d;
+    text-align: center;
+}
+
+#work {
+    float:left;
+    background-color: #ffb84d;
+    text-align: center;
 }
