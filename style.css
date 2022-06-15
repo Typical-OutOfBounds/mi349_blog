@@ -124,3 +124,64 @@ nav a:hover {
     background-color: #ffb84d;
     text-align: center;
 }
+
+@media (max-width : 400px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        padding: 40px;
+        color: #242424;
+        border-top: 10px solid #b38136;
+        background: #fff;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin: 0;
+        text-align: center;
+    }
+
+    #blog {
+        border-top: 1px dotted #ccc;
+        display:block;
+    }
+
+    .navigation {
+        background: #888b94;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top:0%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .sub {
+        text-align: center;
+    }
+
+    #star-pic {
+        float: none;
+        margin: auto;
+        width:fit-content;
+    }
+    
+    #work {
+        float:none;
+        margin: auto;
+        width:fit-content;
+    }
+
+    article:nth-of-type(1) {
+        margin-right: 0;
+    }
+    article:nth-of-type(2) {
+        margin-left: 0;
+    }
+
+    #headshot {
+        margin:auto;
+        display: block;
+    }
+}
