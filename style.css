@@ -195,6 +195,7 @@ nav a:hover {
     }
 
     #time {
-        width: 100% !important;
+        overflow-x: auto;
+        display: block;
     }
 }
