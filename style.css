@@ -113,7 +113,7 @@ nav a:hover {
     background-color: #b38136;
 }
 
-#star-pic {
+#star {
     float: right;
     background-color: #ffb84d;
     text-align: center;
@@ -125,7 +125,7 @@ nav a:hover {
     text-align: center;
 }
 
-@media (max-width : 400px) {
+@media (max-width : 600px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         margin: 20px;
@@ -161,16 +161,24 @@ nav a:hover {
         text-align: center;
     }
 
-    #star-pic {
+    #star {
         float: none;
         margin: auto;
-        width:fit-content;
+        width: fit-content;
+    }
+
+    #star-pic {
+        width:100%;
     }
     
     #work {
         float:none;
         margin: auto;
-        width:fit-content;
+        width: fit-content;
+    }
+
+    #work-pic {
+        width:100%;
     }
 
     article:nth-of-type(1) {
