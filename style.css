@@ -169,16 +169,19 @@ nav a:hover {
 
     #star-pic {
         width:100%;
+        aspect-ratio: 350 / 200;
     }
     
     #work {
         float:none;
         margin: auto;
         width: fit-content;
+        
     }
 
     #work-pic {
         width:100%;
+        aspect-ratio: 350/250;
     }
 
     article:nth-of-type(1) {
